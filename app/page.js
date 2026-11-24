@@ -518,7 +518,7 @@ export default function HomePage() {
                 Getting empanelled means forms, registry codes and long waits. We run the application so your administrative team does not have to keep chasing its status.
               </p>
               <Link
-                href="/services/onboarding"
+                href="/services"
                 className={`mt-6 inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-[#0D1B2A] border-b-2 border-[#B8924A] pb-1 hover:text-[#8E6B29] transition-colors ${focus}`}
               >
                 <span>How onboarding works</span>
@@ -586,7 +586,7 @@ export default function HomePage() {
             </Link>
 
             <Link
-              href="/patients"
+              href="/contact"
               className={`text-sm font-medium text-white underline underline-offset-8 decoration-1 decoration-[#B8924A] hover:text-[#D4AF6A] transition-colors py-2 ${focus}`}
             >
               I am a patient

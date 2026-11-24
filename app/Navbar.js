@@ -29,7 +29,7 @@ export default function Navbar() {
     <header className="fixed top-6 left-0 right-0 z-50 px-6 flex justify-center pointer-events-none">
       <nav
         aria-label="Main Navigation"
-        className={`${sans}  pointer-events-auto w-full max-w-6xl bg-[#FAF8F4]/95 backdrop-blur-md text-white py-3.5 px-6 sm:px-8 rounded-full border border-white/10 shadow-[0_16px_40px_-10px_rgba(13,27,42,0.35)] flex items-center justify-between gap-6 transition-all duration-300`}
+        className={`${sans} pointer-events-auto w-full max-w-6xl bg-[#FAF8F4]/95 backdrop-blur-md text-white py-3.5 px-6 sm:px-8 rounded-full border border-white/10 shadow-[0_16px_40px_-10px_rgba(13,27,42,0.35)] flex items-center justify-between gap-6 transition-all duration-300`}
       >
         {/* Brand Logo / Title */}
         <Link href="/" className={`flex items-center gap-2.5 group ${focus}`}>
@@ -37,25 +37,14 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation Links */}
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-[#0D1B2A]">
-          <div
-            
-            className={`hover:text-[#D4AF6A] group  transition-colors tracking-wide ${focus}`}
-          >
-            <button>
-
-            Our Services
-            </button>
-            <div className='hidden group-hover:block'>
-              <ServicesDropdown/>
-            </div>
-          </div>
+        <div className="hidden md:flex items-center gap-8 text-lg font-medium text-[#0D1B2A]">
           <Link
-            href="#patients"
+            href="/services"
             className={`hover:text-[#D4AF6A] transition-colors tracking-wide ${focus}`}
           >
-            Patient Support
+            Our Services
           </Link>
+          
           <Link
             href="#how-it-works"
             className={`hover:text-[#D4AF6A] transition-colors tracking-wide ${focus}`}
@@ -63,10 +52,10 @@ export default function Navbar() {
             How It Works
           </Link>
           <Link
-            href="#success-stories"
+            href="/about"
             className={`hover:text-[#D4AF6A] transition-colors tracking-wide ${focus}`}
           >
-            Success Stories
+            About Us
           </Link>
         </div>
 

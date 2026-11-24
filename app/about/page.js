@@ -199,7 +199,7 @@ function Reveal({ children, className = '', delay = 0 }) {
 export default function AboutPage() {
   return (
     <div
-      className={`${sans} w-screen bg-[#FAF8F4] text-[#0D1B2A] antialiased selection:bg-[#B8924A]/20 selection:text-[#0D1B2A]`}
+      className={`${sans} pt-20 w-screen bg-[#FAF8F4] text-[#0D1B2A] antialiased selection:bg-[#B8924A]/20 selection:text-[#0D1B2A]`}
     >
       {/* =====================================================================
           1. HERO SECTION — Asymmetric Editorial Composition + Gold Frame

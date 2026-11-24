@@ -245,7 +245,7 @@ export default function ContactPage() {
 
   return (
     <div
-      className={`mt-20 ${sans} w-full bg-[#FAF8F4] text-[#0D1B2A] antialiased selection:bg-[#B8924A]/20 selection:text-[#0D1B2A]`}
+      className={`pt-20 ${sans} w-full bg-[#FAF8F4] text-[#0D1B2A] antialiased selection:bg-[#B8924A]/20 selection:text-[#0D1B2A]`}
     >
       
 
